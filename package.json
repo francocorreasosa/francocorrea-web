@@ -1,0 +1,13 @@
+{
+  "name": "francocorrea-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "micro": "^7.2.1",
+    "micro-redirect": "^1.0.0"
+  }
+}
