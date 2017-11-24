@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon app.js --exec babel-node",
-    "start": "node src/app.js",
+    "start": "node dist/src/app.js",
     "build": "babel src/*.js -d dist"
   },
   "dependencies": {
