@@ -1,0 +1,18 @@
+{
+  "name": "franco",
+  "description": "Personal site",
+  "type": "server",
+  "headers": {
+    "/*": {
+      "X-Coded-By": "Franco",
+      "X-Serverless-Powered": "Absolutely yes dude"
+    }
+  },
+  "error_pages": {
+    "enable": true,
+    "variables": {
+      "support_email": "site@francocorrea.com.uy",
+      "color": "#000000"
+    }
+  }
+}
