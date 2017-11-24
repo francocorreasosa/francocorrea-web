@@ -10,7 +10,7 @@
     "dev": "nodemon app.js --exec babel-node",
     "start": "node dist/src/app.js",
     "prestart": "npm run build",
-    "build": "babel src/*.js -d dist"
+    "build": "echo $(pwd) && ./node_modules/.bin/babel src/*.js -d dist"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
