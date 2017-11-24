@@ -5,7 +5,7 @@ import Hapi from 'hapi';
 const server = new Hapi.Server();
 
 server.connection({
-  host: process.env.HOST || 'localhost',
+  host: process.env.HOST || '0.0.0.0',
   port: process.env.PORT || 5000
 });
 
