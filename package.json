@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "nodemon app.js --exec babel-node",
     "start": "node dist/src/app.js",
+    "prestart": "npm run build",
     "build": "babel src/*.js -d dist"
   },
   "dependencies": {
