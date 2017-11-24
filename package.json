@@ -18,13 +18,13 @@
     "hoek": "^5.0.2",
     "inert": "^5.0.1",
     "joi": "^13.0.2",
-    "vision": "^5.2.0"
-  },
-  "devDependencies": {
+    "vision": "^5.2.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2016": "^6.24.1",
-    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  },
+  "devDependencies": {
     "jest": "^21.2.1",
     "nodemon": "^1.12.1"
   },
