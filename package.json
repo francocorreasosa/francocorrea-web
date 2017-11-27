@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "nodemon ./src/app.js --exec babel-node",
     "start": "node dist/src/app.js",
+    "prestart": "npm run build",
     "build": "babel src/*.js -d dist",
     "prebuild": "mkdir -p dist/ && cp -R src dist/"
   },
