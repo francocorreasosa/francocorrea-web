@@ -10,8 +10,7 @@
     "dev": "nodemon ./src/app.js --exec babel-node",
     "start": "node dist/src/app.js",
     "prestart": "npm run build",
-    "build": "babel src/*.js -d dist",
-    "prebuild": "mkdir -p dist/ && cp -R src dist/"
+    "build": "mkdir -p dist/ && cp -R src dist/ && babel src/*.js -d dist"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
