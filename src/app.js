@@ -39,6 +39,14 @@ server.register(plugins, err => {
 
   server.route({
     method: 'GET',
+    path: '/contacting',
+    handler: (req, res) => {
+      res.view('contacting');
+    }
+  });
+
+  server.route({
+    method: 'GET',
     path: '/static/{param*}',
     handler: {
       directory: {
